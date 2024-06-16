@@ -1,0 +1,89 @@
+html{
+    font-family: 'Rufina', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #efefef;
+    margin: 0;
+}
+html body nav ul{
+    list-style-type: none;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 50px;
+    display: flex;
+}
+html body nav ul li{
+    display: inline-block;
+}
+html body nav ul li a{
+    padding: 0 15px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 3px 0 5px;
+    padding: 15px 30px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+a{
+    transition: color 0.3 ease;
+    font-family: 'Rubik', sans-serif;
+    color: #034d6c;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover{
+    color: #f84f07;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html body nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html body nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin: 0 auto 20px;
+    }
+
+    .footer .row {
+        text-align: center;
+    }
+    body {
+        padding-top: 140px; 
+        }
+}

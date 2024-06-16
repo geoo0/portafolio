@@ -1,0 +1,79 @@
+header .logo {
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 700; 
+}
+.footer{
+    padding: 80px 0 0 0;
+    background-color: #333;
+    color: #fff;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.social-links{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.social-links a{
+    margin: 0 10px;
+}
+.social{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+.made-with{
+    padding: 0 30px;
+    color: #555;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html body nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html body nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin: 0 auto 20px;
+    }
+
+    .footer .row {
+        text-align: center;
+    }
+}
